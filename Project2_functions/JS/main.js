@@ -5,6 +5,11 @@ function My_First_Function () {
 
 function My_Second_Function() {
     var sentence = "I am learning";
-    sentence += "alot from this book!"; 
+    sentence += " a lot from this book!"; 
     document.getElementById("Concatenate").innerHTML= sentence;
+} 
+
+function My_Third_Function() {
+    var str="I made another button!";
+    document.getElementById ("Button_2").innerHTML=str;
 }
