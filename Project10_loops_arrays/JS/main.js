@@ -43,13 +43,21 @@ function constant_function() {
     Musical_Instrument.type + " was " + Musical_Instrument.price;
 } 
 
- 
-
 function myFunction() {
     return "Hi";
 } 
 document.getElementById("demo").innerHTML = myFunction();
 
+let car = {
+    make: "Dodge ",
+    model: "Viper ",
+    year: "2021 ",
+    color: "red ", 
+    description : function()    {
+        return "The car is a " + this.year + this.color + this.make + this.model;
+    } 
+}; 
+document.getElementById("Car_Object").innerHTML = car.description();
 
 
 
